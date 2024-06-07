@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgroound</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+<body>
+    <button id="cor">Mude a cor!</button>
+    <script>
+        document.getElementById("cor").addEventListener("click", function() {
+            // Array com cores possiveis
+            var cores = ["deeppink", "white", "black"];
+            // Seleciona uma cor aleatoria
+            var corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+            // Muda a cor de fundo do body
+            document.body.style.backgroundColor = corAleatoria;
+        });
+        </script>
+</body>
+</html>

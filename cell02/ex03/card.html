@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <h1>User Profile Card</h1>
+    <div class="table">
+        <table>
+            <tr>
+                <td><img src="https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786" alt="Princess Leia"></td>
+            </tr>
+            <tr>
+                <td id="login">czampier</td>
+            </tr>
+            <tr>    
+                <td id="description">Be happy ^^</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1U0rRkEYxvHfQykrsrFSXoqFKFl5KQsfQ76AslA2VvZKSfkG8jFkIUXWkuRtZaVsWCg0NUfTOFHPeLJg6tQ953Rf/3uue2ZOQ4tHo8X66gCDeMXNT8BzwDaWo/AmVkshKWAE55lgP25LIN8BBkqtyi3awVKseAsrJdWH3LomD8cmX5aK1wGm0RGFn3Ec4wl0xfgJJ+jBLMbQjj18KipfwT16o9AVhmJ8iJkYX2A9Cqb5YWuvYSNdeTOAB3TGp87FeexXH5oBVLkBdIdxtCWkYNVCKWAXi1FkDgcJ4AyjpYBwKEMvqhFW0hcnj+guBYSd9pIATjGZzD+s/6oH1wgXXxjpLgrz4PlbIniEqX9AddD+uEV1R7/o3a/89IsqzpPfAXF0UxkpbL/qAAAAAElFTkSuQmCC"/></a>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjBJREFUSEu11UnIjlEUB/DfJ7IhCyRZosxFslCKKGFjKEOKEjKlJGOJZAglkiHsCCXDhh0LC5SIjEWysDAkC1KIPOfrvnW/53uHx+I7m/e99/7P/Z9z7jn/p00XW1sX368VQQ/MxgyMxlDafd7hCW4W+1fwu1GgzQim4SSGtMjyLVbiVj1cI4It2J+irVLFv9iKQ2VwPYLNOFDl1jqYDTiS75cJpqRUYz/quwyrsQPd8CbVezgi6n04gWOYl/Ym4W6NJCfoiecYnA53Y2f6H+/wEd/SuhcG4nVab8fe9P8FxhRB/Yl1TrAAl7L0ItVIuYodxKYMOCtVoAPB+SKixRloIu5VuT1F/DgL+DjWlTOI8ozI0hxZ8fIa7CHGpcWDIoMJZYJP6J8A14tBmvOfBBewKPl8Qb8ywYdisAYkwG1M/U+CG5iZfL6jd5ngEcYmQHRL32YSUCIPSfmMPmn/FaKVOzzyGSzPHFfgbMUsAns6w57DkjJB1PwqviJSjD6P8Q89+tGAKOZhbRq4GMSazcflMkHMRHTSoKI9p2MVluJX6umF+JluiJJcS7juJfKXGJWmupNcz03y+x7j0+BNTlmsKV10EUFatqhEdGG71RO7o1if9GdPkzfYlUlJDXa4kJONuU8juQ5xCy26U4jYUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ+eWyjpNtxPmhW/nazVJzPO45MZMh2Z5DYs9Xo8dkNrRdDMt9JZlxP8A6W4YxlKv0WFAAAAAElFTkSuQmCC"/></i></a>
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAa9JREFUSEvt1U+ITlEYBvDfFFEYKYuxQDaaKKRmSlKkSaKo2ZjdpEikRFODhbKQlJhZaDaWLBURC8XMmDILSUrJn4WFSCkWCA33rfPVcbvf9823mIWaU7fbPT3nee77PO97b5sZXm0zzG9WoKnDuUVb66B/YxK/mrJVAHKBPw0IvuIKTiHHDWJ+6dy5Aveztlcl8BnPE2AZVmcEpxEEtXUbC0sCO/G9kcAd7M4OrcQrzMUt7GnFqqoKygLB9wXtyaYjSWAezmIvVmEOJnA4c+CfOah5+xgnE8liHMAuvMM2vE1kY9iEH0VVT9GV9j9hHT4Ex3RDDmyEPIBvOIphfMRmvMFSPMRaDOFYPYHw+3opg/70fKMovxcPCrJo65u4nGEPoq+4XqKznkBVBlcLi/Ynogh9HCsahB1tGhlVWlQlEOVeSoTbcREbcBcXKoQiz9HpCCzCFoxgeSKKewiewGusyab8EPYl8jOthhz486nDOvCiCHNJCjYs24Hu9BI9uN+KwBM8wnFMJZLolmtYn1n0rGjb+Hzcq5rkVgY0P78RC5Jd78sksz+cprb+/xb9BezcVxnXw3nmAAAAAElFTkSuQmCC"/></i></a>
+                </td>
+            </tr>
+            <tr>    
+                <td><button>Contact</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

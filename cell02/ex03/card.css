@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table {
+    width: 220px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 0 4px 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+td {
+    padding: 10px;
+}
+
+#login {
+    font-weight: bold;
+}
+
+#description {
+    color: rgb(175, 175, 175);
+}
+
+a {
+    margin: 5px 15px;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+    color: white;
+    background-color: black;
+
+}
